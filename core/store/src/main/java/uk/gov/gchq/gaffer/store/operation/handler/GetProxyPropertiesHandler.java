@@ -13,22 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package uk.gov.gchq.gaffer.federatedstore;
+package uk.gov.gchq.gaffer.store.operation.handler;
 
 import uk.gov.gchq.gaffer.operation.OperationException;
-import uk.gov.gchq.gaffer.proxystore.ProxyProperties;
 import uk.gov.gchq.gaffer.store.Context;
+import uk.gov.gchq.gaffer.store.operation.GetProxyProperties;
+import uk.gov.gchq.gaffer.store.ProxyProperties;
 import uk.gov.gchq.gaffer.store.Store;
-import uk.gov.gchq.gaffer.store.operation.handler.OutputOperationHandler;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.CONNECT_TIMEOUT;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_CONTEXT_ROOT;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_HOST;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_PORT;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.READ_TIMEOUT;
+import static uk.gov.gchq.gaffer.store.ProxyProperties.*;
 
 
 public class GetProxyPropertiesHandler implements OutputOperationHandler<GetProxyProperties, Map<String, Object>> {
