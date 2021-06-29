@@ -14,11 +14,9 @@
  * limitations under the License.
  */
 
-package uk.gov.gchq.gaffer.proxystore;
+package uk.gov.gchq.gaffer.store;
 
 import org.apache.commons.lang3.StringUtils;
-
-import uk.gov.gchq.gaffer.store.StoreProperties;
 
 import java.io.InputStream;
 import java.net.MalformedURLException;

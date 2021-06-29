@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package uk.gov.gchq.gaffer.proxystore.exception;
+package uk.gov.gchq.gaffer.store;
 
 public class ProxyStoreException extends RuntimeException {
 

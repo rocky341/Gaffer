@@ -14,18 +14,13 @@
  * limitations under the License.
  */
 
-package uk.gov.gchq.gaffer.proxystore.operation.handler;
+package uk.gov.gchq.gaffer.store;
 
 import com.google.common.collect.Lists;
-
 import uk.gov.gchq.gaffer.core.exception.GafferWrappedErrorRuntimeException;
 import uk.gov.gchq.gaffer.operation.Operation;
 import uk.gov.gchq.gaffer.operation.OperationChain;
 import uk.gov.gchq.gaffer.operation.OperationException;
-import uk.gov.gchq.gaffer.proxystore.ProxyStore;
-import uk.gov.gchq.gaffer.proxystore.exception.ProxyStoreException;
-import uk.gov.gchq.gaffer.store.Context;
-import uk.gov.gchq.gaffer.store.Store;
 import uk.gov.gchq.gaffer.store.operation.OperationChainValidator;
 import uk.gov.gchq.gaffer.store.operation.handler.util.OperationHandlerUtil;
 import uk.gov.gchq.gaffer.store.optimiser.OperationChainOptimiser;
