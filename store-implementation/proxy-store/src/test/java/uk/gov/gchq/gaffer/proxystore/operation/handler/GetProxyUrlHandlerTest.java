@@ -17,17 +17,15 @@ package uk.gov.gchq.gaffer.proxystore.operation.handler;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-
-import uk.gov.gchq.gaffer.proxystore.operation.GetProxyUrl;
 import uk.gov.gchq.gaffer.store.Context;
 import uk.gov.gchq.gaffer.store.Store;
 import uk.gov.gchq.gaffer.store.StoreProperties;
+import uk.gov.gchq.gaffer.store.operation.GetProxyUrl;
+import uk.gov.gchq.gaffer.store.operation.handler.GetProxyUrlHandler;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.DEFAULT_GAFFER_CONTEXT_ROOT;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_CONTEXT_ROOT;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_HOST;
-import static uk.gov.gchq.gaffer.proxystore.ProxyProperties.GAFFER_PORT;
+import static uk.gov.gchq.gaffer.store.ProxyProperties.*;
+
 
 public class GetProxyUrlHandlerTest {
 

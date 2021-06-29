@@ -19,6 +19,7 @@ import org.junit.jupiter.api.Test;
 
 import uk.gov.gchq.gaffer.operation.Operation;
 import uk.gov.gchq.gaffer.operation.OperationTest;
+import uk.gov.gchq.gaffer.store.operation.GetProxyProperties;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

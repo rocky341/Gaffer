@@ -18,6 +18,7 @@ package uk.gov.gchq.gaffer.proxystore.operation;
 import org.junit.jupiter.api.Test;
 
 import uk.gov.gchq.gaffer.operation.OperationTest;
+import uk.gov.gchq.gaffer.store.operation.GetProxyUrl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
